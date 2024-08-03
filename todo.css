@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(list3.jpg);
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.content {
+  font-size: 1.25rem;
+  width: 100%;
+  max-width: 40rem;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.head2 input, .head2 button {
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.large-checkbox {
+  margin-right: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .content {
+      margin: 0 1rem;
+      padding: 1rem;
+  }
+  
+  .head2 input, .head2 button {
+      font-size: 0.875rem;
+      padding: 0.375rem;
+  }
+  
+  .large-checkbox {
+      width: 16px;
+      height: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+      margin: 0;
+      padding: 0.5rem;
+  }
+  
+  .head2 input, .head2 button {
+      font-size: 0.75rem;
+      padding: 0.25rem;
+  }
+  
+  .large-checkbox {
+      width: 14px;
+      height: 14px;
+  }
+}
+.delete{
+  margin-left:0.5rem;
+}
